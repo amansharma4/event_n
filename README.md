@@ -1,3 +1,3 @@
 #Event Based Site
-MERN Stack Used
+##MERN Stack Used
 to run concurrently say :- npm run dev
