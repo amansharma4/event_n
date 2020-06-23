@@ -1,15 +1,17 @@
 import React from 'react'
-import { FaCode } from "react-icons/fa";
+//import { FaCode } from "react-icons/fa";
+import Calendar from 'react-calendar';
 
 function LandingPage() {
     return (
         <>
-        <div className="app">
-            <FaCode style={{ fontSize: '4rem' }} /><br />
-            <span style={{ fontSize: '2rem' }}>Let's Start Coding!</span>
+        <div className="app" style={{alignItems:'center',height:'80%',width:'80%'}}>
+            {/* <FaCode style={{ fontSize: '4rem' }} /><br /> */}
+            <Calendar/>
         </div>
-        <div style={{ float:'right' }}>Thanks For Using This Boiler Plate</div>
-        </>
+        </>  
+
+
     )
 }
 
